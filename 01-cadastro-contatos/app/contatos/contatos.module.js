@@ -9,17 +9,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
+var contatos_list_component_1 = require('./contatos-list.component');
+var ContatosModule = (function () {
+    function ContatosModule() {
     }
-    AppComponent = __decorate([
-        core_1.Component({
-            selector: 'my-app',
-            template: "\n        <h1>Minha primeira aplicacao em angular 2</h1>\n        <contatos-lista></contatos-lista>\n    "
+    ContatosModule = __decorate([
+        core_1.NgModule({
+            declarations: [
+                contatos_list_component_1.ContatoListaComponent
+            ],
+            exports: [
+                contatos_list_component_1.ContatoListaComponent
+            ]
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], ContatosModule);
+    return ContatosModule;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.ContatosModule = ContatosModule;
+//# sourceMappingURL=contatos.module.js.map

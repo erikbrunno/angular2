@@ -1,2 +1,0 @@
-01-cadastro-contatos/node_modules
-01-cadastro-contatos/.vscode

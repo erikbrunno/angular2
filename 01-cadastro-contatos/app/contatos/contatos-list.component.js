@@ -8,18 +8,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
+var core_1 = require("@angular/core");
+var ContatoListaComponent = (function () {
+    function ContatoListaComponent() {
     }
-    AppComponent = __decorate([
+    ContatoListaComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n        <h1>Minha primeira aplicacao em angular 2</h1>\n        <contatos-lista></contatos-lista>\n    "
+            moduleId: module.id,
+            selector: 'contatos-lista',
+            templateUrl: 'contatos-lista.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], ContatoListaComponent);
+    return ContatoListaComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.ContatoListaComponent = ContatoListaComponent;
+//# sourceMappingURL=contatos-list.component.js.map
